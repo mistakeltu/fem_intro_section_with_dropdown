@@ -27,6 +27,8 @@ main {
 }
 
 .main-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   grid-column: 1;
   grid-row: 2;
 }
@@ -46,4 +48,41 @@ main {
 
 .login-box {
   gap: 35px;
+}
+
+.main-ann {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.main-title {
+  padding-top: 70px;
+  font-size: 85px;
+  font-weight: 700;
+}
+
+.main-p {
+  color: var(--gray);
+  padding-top: 50px;
+  font-size: 18px;
+  width: 400px;
+}
+
+.main-btn {
+  margin-top: 50px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--black);
+  color: var(--white);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.main-btn:hover {
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  color: var(--black);
 }
