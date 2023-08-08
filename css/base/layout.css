@@ -115,3 +115,23 @@ main {
   border: 1px solid var(--black);
   color: var(--black);
 }
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .nav-button,
+  .arr-container,
+  .login-box {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+  }
+}
