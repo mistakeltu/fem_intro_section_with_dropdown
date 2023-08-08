@@ -52,6 +52,13 @@ main {
   text-decoration: none;
 }
 
+.arr-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
 .login-box .register {
   text-decoration: none;
   color: var(--gray);
