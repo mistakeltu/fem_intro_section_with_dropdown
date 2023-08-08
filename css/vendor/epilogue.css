@@ -1,0 +1,7 @@
+@font-face {
+  font-family: Epilogue;
+  font-display: swap;
+  font-weight: 500 700;
+  src: url('../../fonts/Epilogue/Epilogue-VariableFont_wght.ttf')
+    format('truetype');
+}

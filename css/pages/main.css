@@ -1,0 +1,29 @@
+/* LAYOUT */
+
+@import '../base/base.css';
+@import '../base/layout.css';
+
+/* BUTTON */
+
+@import '../components/button.css';
+
+/* HOME */
+
+@import '../pages/home.css';
+
+/* VENDORS */
+
+@import '../vendor/epilogue.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: Epilogue;
+  --white: hsl(0, 0%, 98%);
+  --gray: hsl(0, 0%, 41%);
+  --black: hsl(0, 0%, 8%);
+}
