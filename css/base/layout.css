@@ -38,6 +38,7 @@ main {
 .login-box {
   display: flex;
   align-items: center;
+  gap: 35px;
 }
 
 .logo-container nav {
@@ -46,8 +47,29 @@ main {
   gap: 35px;
 }
 
-.login-box {
-  gap: 35px;
+.nav-button {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+.login-box .register {
+  text-decoration: none;
+  color: var(--gray);
+  padding: 15px 25px;
+  border-radius: 15px;
+  background-color: var(--white);
+  border: 1px solid var(--black);
+}
+
+.login {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+.login-box .register:hover,
+.login:hover,
+.nav-button:hover {
+  color: var(--black);
 }
 
 .main-ann {
@@ -73,7 +95,7 @@ main {
 .main-btn {
   margin-top: 50px;
   padding: 15px 25px;
-  border-radius: 10px;
+  border-radius: 15px;
   border: none;
   background-color: var(--black);
   color: var(--white);
