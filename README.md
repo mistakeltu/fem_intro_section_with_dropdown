@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://mistakeltu.github.io/fem_homepage_main/)
-- Live Site URL: [Add live site URL here](https://mistakeltu.github.io/fem_homepage_main/)
+- Solution URL: [Add solution URL here](https://mistakeltu.github.io/fem_intro_section_with_dropdown/)
+- Live Site URL: [Add live site URL here](https://mistakeltu.github.io/fem_intro_section_with_dropdown/)
 
 ## My process
 
@@ -45,24 +45,7 @@ Users should be able to:
 ### What I learned
 
 ```css
-   transform: translateX(100%);
-   transition: transform 350ms ease-out;
-   inset: 0 0 0 70%;
-
-  .nav-btn[data-visible="true"] {
-    transform: translateX(0%);
-  }
-
-  .nav-toggle[aria-expanded="true"] {
-    background-image: url(../../images/icon-menu-close.svg);
-  }
-
-  @media (max-width: 700px) {
-    .nav-btn {
-      inset: 0 0 0 60%;
-    }
-  }
-}
+   
 ```
 
 ### Continued development
