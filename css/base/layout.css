@@ -1,3 +1,49 @@
-h2 {
-  background-color: aqua;
+.container-grid {
+  display: grid;
+  max-width: 1440px;
+  margin: 40px auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-img {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.img {
+  /* height: 500px; */
+  width: 600px;
+  margin-left: 40px;
+}
+
+.main-footer {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.logo-container,
+.logo,
+.login-box {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container nav {
+  display: flex;
+  margin-left: 70px;
+  gap: 35px;
+}
+
+.login-box {
+  gap: 35px;
 }
