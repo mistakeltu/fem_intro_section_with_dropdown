@@ -1,15 +1,24 @@
+const btnDOM = document.querySelector('.dropdown-menu');
+
 document.addEventListener('click', e => {
   const isDropdownBtn = e.target.matches('[data-dropdown-button]');
   if (!isDropdownBtn && e.target.closest('[data-dropdown]') != null) return;
 
-  let currentDropdown;
-  if (isDropdownBtn) {
-    currentDropdown = e.target.closest('[data-dropdown]');
-    currentDropdown.classList.toggle('active');
-  }
+  const currentDropdown = isDropdownBtn
+    ? e.target.closest('[data-dropdown]')
+    : null;
 
-  document.querySelectorAll('[data-dropdown].active').forEach(dropdown => {
-    if (dropdown === currentDropdown) return;
-    dropdown.classList.remove('active');
+  document.querySelectorAll('[data-dropdown]').forEach(dropdown => {
+    if (dropdown === currentDropdown) {
+      dropdown.classList.toggle('active');
+      if (dropdown.classList.contains('active')) {
+        dropdown.querySelector('.dropdown-menu').style.position = 'static';
+      } else {
+        dropdown.querySelector('.dropdown-menu').style.position = 'absolute';
+      }
+    } else {
+      dropdown.classList.remove('active');
+      dropdown.querySelector('.dropdown-menu').style.position = 'absolute';
+    }
   });
 });
