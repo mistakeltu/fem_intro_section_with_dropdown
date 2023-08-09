@@ -1,4 +1,6 @@
 const btnDOM = document.querySelector('.dropdown-menu');
+const navDOM = document.querySelector('.nav-style');
+const toggleDOM = document.querySelector('.menu-icon');
 
 document.addEventListener('click', e => {
   const isDropdownBtn = e.target.matches('[data-dropdown-button]');
@@ -21,4 +23,18 @@ document.addEventListener('click', e => {
       dropdown.querySelector('.dropdown-menu').style.position = 'absolute';
     }
   });
+});
+
+toggleDOM.addEventListener('click', () => {
+  const visibility = navDOM.getAttribute('data-visible');
+
+  if (visibility === 'false') {
+    navDOM.setAttribute('data-visible', true);
+    toggleDOM.setAttribute('aria-expanded', true);
+    toggleDOM.style.position = 'fixed';
+  } else {
+    navDOM.setAttribute('data-visible', false);
+    toggleDOM.setAttribute('aria-expanded', false);
+    toggleDOM.style.position = 'absolute';
+  }
 });
