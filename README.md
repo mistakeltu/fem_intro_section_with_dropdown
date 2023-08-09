@@ -53,6 +53,7 @@ Users should be able to:
 ### Useful resources
 
 - [Example resource 1](https://www.youtube.com/watch?v=HbBMp6yUXO0&ab_channel=KevinPowell) - Responsive navbar tutorial using HTML CSS & JS by Kevin Powell
+- [Example resource 2](https://www.youtube.com/watch?v=S-VeYcOCFZw&list=LL&index=2&t=699s&ab_channel=WebDevSimplified) - How To Create Advanced CSS Dropdown Menus
 
 ## Author
 
