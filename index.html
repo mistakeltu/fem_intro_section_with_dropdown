@@ -44,9 +44,17 @@
           <div class="logo">
             <img src="./images/logo.svg" alt="Logo" />
           </div>
-          <nav>
+          <nav class="nav-style">
             <div class="arr-container">
-              <a class="nav-button" href="#">Features </a>
+              <div class="dropdown">
+                <button class="nav-button">Features</button>
+                <div class="dropdown-menu">
+                  <a href="#">Todo List</a>
+                  <a href="#">Calendar</a>
+                  <a href="#">Reminders</a>
+                  <a href="#">Planing</a>
+                </div>
+              </div>
               <img
                 class="nav-arr-down"
                 src="./images/icon-arrow-down.svg"
@@ -54,19 +62,30 @@
               />
             </div>
             <div class="arr-container">
-              <a class="nav-button" href="#">Company </a>
+              <div class="dropdown">
+                <button class="nav-button">Company</button>
+                <div class="dropdown-menu">
+                  <a href="#">History</a>
+                  <a href="#">Our Team</a>
+                  <a href="#">Blog</a>
+                </div>
+              </div>
               <img
                 class="nav-arr-down"
                 src="./images/icon-arrow-down.svg"
                 alt=""
               />
             </div>
-            <a class="nav-button" href="#">Careers</a>
-            <a class="nav-button" href="#">About</a>
+            <div class="arr-container">
+              <button class="nav-button">Careers</button>
+            </div>
+            <div class="arr-container">
+              <button class="nav-button">About</button>
+            </div>
           </nav>
         </div>
         <div class="login-box">
-          <a class="login" href="#">Login</a>
+          <button class="nav-button">Login</button>
           <a class="register" href="#">Register</a>
           <div class="menu-icon">
             <img src="./images/icon-menu.svg" alt="Menu icon" />
