@@ -75,10 +75,15 @@ header {
   border-radius: 10px;
   box-shadow: -2px 3px 8px 0 rgba(0, 0, 0, 0.1);
   opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
 }
 
-.dropdown > .nav-button:focus + .dropdown-menu {
+.dropdown.active > .nav-button + .dropdown-menu {
   opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
 }
 
 .arr-container {
@@ -104,7 +109,8 @@ header {
 
 .login-box .register:hover,
 .login:hover,
-.nav-button:hover {
+.nav-button:hover,
+.dropdown.active > .nav-button {
   color: var(--black);
 }
 
