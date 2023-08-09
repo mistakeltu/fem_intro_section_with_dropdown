@@ -1,6 +1,6 @@
 /* NAVIGATION BUTTONS */
 
-.nav-button {
+/* .nav-button {
   color: var(--gray);
   text-decoration: none;
   border: none;
@@ -9,11 +9,11 @@
   cursor: pointer;
   height: 18px;
   font-family: Epilogue;
-}
+} */
 
-/* MAIN BUTTON */
+/* MAIN */
 
-.main-btn {
+/* .main-btn {
   display: flex;
   margin-top: 50px;
   padding: 15px 25px;
@@ -29,4 +29,4 @@
   background-color: var(--white);
   border: 1px solid var(--black);
   color: var(--black);
-}
+} */

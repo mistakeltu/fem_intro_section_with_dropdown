@@ -1,6 +1,6 @@
 /* NAVIGATION DROPDOWN */
 
-.dropdown {
+/* .dropdown {
   position: relative;
 }
 
@@ -24,14 +24,14 @@
 .dropdown.active > .nav-button + .dropdown-menu {
   opacity: 1;
   transform: translateY(0);
-  pointer-events: auto;
-}
+  pointer-events: auto; 
+ } */
 
 /* ARROW ICON STYLE */
 
-.arr-container {
+/* .arr-container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
-}
+} */
