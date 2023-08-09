@@ -1,0 +1,28 @@
+/* HOVERS */
+
+.login-box .register:hover,
+.login:hover,
+.nav-button:hover,
+.dropdown.active > .nav-button {
+  color: var(--black);
+}
+
+/* MAIN INFO STYLES */
+
+.main-ann {
+  margin: 100px 50px 0 50px;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.main-title {
+  padding-top: 70px;
+  font-size: 85px;
+  font-weight: 700;
+}
+
+.main-p {
+  color: var(--gray);
+  padding-top: 50px;
+  font-size: 18px;
+}

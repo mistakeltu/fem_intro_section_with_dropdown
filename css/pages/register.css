@@ -1,0 +1,15 @@
+/* NAVIGATION BUTTON REGISTER */
+
+.login-box .register {
+  text-decoration: none;
+  color: var(--gray);
+  padding: 12px 25px;
+  border-radius: 15px;
+  background-color: var(--white);
+  border: 1px solid var(--black);
+}
+
+.login {
+  color: var(--gray);
+  text-decoration: none;
+}
