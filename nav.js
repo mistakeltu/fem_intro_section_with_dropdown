@@ -14,13 +14,13 @@ document.addEventListener('click', e => {
     if (dropdown === currentDropdown) {
       dropdown.classList.toggle('active');
       if (dropdown.classList.contains('active')) {
-        dropdown.querySelector('.dropdown-menu').style.position = 'static';
+        // dropdown.querySelector('.dropdown-menu').style.position = 'static';
       } else {
-        dropdown.querySelector('.dropdown-menu').style.position = 'absolute';
+        // dropdown.querySelector('.dropdown-menu').style.position = 'absolute';
       }
     } else {
       dropdown.classList.remove('active');
-      dropdown.querySelector('.dropdown-menu').style.position = 'absolute';
+      // dropdown.querySelector('.dropdown-menu').style.position = 'absolute';
     }
   });
 });

@@ -71,6 +71,7 @@ header {
   left: 0;
   top: calc(100% + 0.35rem);
   gap: 7px;
+  width: 150px;
   padding: 10px;
   background-color: #ffffff;
   border-radius: 10px;
@@ -79,12 +80,26 @@ header {
   pointer-events: none;
   transform: translateY(-10px);
   transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+  z-index: 999999;
 }
 
 .dropdown.active > .nav-button + .dropdown-menu {
   opacity: 1;
   transform: translateY(0);
   pointer-events: auto;
+}
+
+.drop-btn {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+  align-items: baseline;
+  text-decoration: none;
+  color: var(--gray);
+}
+
+.drop-btn:hover {
+  color: var(--black);
 }
 
 .arr-container {
